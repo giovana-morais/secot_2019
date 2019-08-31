@@ -20,10 +20,13 @@ enfim, a partir disso aí é só dar um
 
 `pip install -r requirements.txt` 
 
-e tudo será lindamente instalado na sua máquina.
+e tudo será lindamente instalado na sua máquina ou ambiente virtual.
+
 
 o `librosa` depende do `ffmpeg` pra rodar as coisas, então talvez seja necessário
-instalar ele, caso você não o tenha. 
+instalar ele. nesse caso, já não é uma lib do python, mas sim uma biblioteca do 
+sistema. se o seu for Ubuntu, `sudo apt-get install ffmpeg`. se for Arch Linux
+`pacman -S ffmpeg`. 
 
 
 qualquer dúvida, manda aquele email pra `giovana.vmorais@gmail.com` e ficarei 
