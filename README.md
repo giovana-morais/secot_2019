@@ -3,6 +3,8 @@
 ## o que tem nesse repositório:
 1. um notebook chamado `intro_mir` com alguns dos conceitos básicos que eu mostrei na palestra
 2. um notebook chamado `mood_classifier` que tem uma classificação beeem ruim de humor nas músicas
+3. um notebook chamado `audio_transformation` que trata de algumas transformações possíveis no
+áudio de maneira bem simples
 3. um arquivo chamado `realtime_spectrogram.py` que mostra um espectrograma em ASCII sendo gerado
 em tempo real
 4. um arquivo chamado requirements.txt pra salvar a vida de vocês
@@ -25,8 +27,10 @@ e tudo será lindamente instalado na sua máquina ou ambiente virtual.
 
 o `librosa` depende do `ffmpeg` pra rodar as coisas, então talvez seja necessário
 instalar ele. nesse caso, já não é uma lib do python, mas sim uma biblioteca do 
-sistema. se o seu for Ubuntu, `sudo apt-get install ffmpeg`. se for Arch Linux
-`pacman -S ffmpeg`. 
+sistema. 
+
+* **Ubuntu**: `sudo apt-get install ffmpeg`
+* **Arch Linux**: `pacman -S ffmpeg`
 
 
 qualquer dúvida, manda aquele email pra `giovana.vmorais@gmail.com` e ficarei 
